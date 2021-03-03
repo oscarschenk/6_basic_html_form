@@ -34,10 +34,19 @@
     <p>Vul onderstaand contactformlier in en we nemen contact met u op.</p>
     
     <form name="contact" method="POST" data-netlify="true">
-    <input type="text" value="Uw naam"><br>
-    <input type="email" value="Uw e-mail"><br>
-    <textarea rows="4" cols="17"></textarea><br>
-    <button type="submit">Verzenden</button>
+      <p>
+        <label>Your Name: <input type="text" name="name" /></label>   
+      </p>
+      <p>
+        <label>Your Email: <input type="email" name="email" /></label>
+      </p>
+      
+      <p>
+        <label>Message: <textarea name="message"></textarea></label>
+      </p>
+      <p>
+        <button type="submit">Send</button>
+      </p>
     </form>
   
 
